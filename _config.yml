@@ -16,10 +16,10 @@ timezone:
 
 title: marketer.git # the main title
 
-tagline: Performance · Growth Strategy · Data # it will display as the subtitle
+tagline:  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  데이터를 다루는 마케터 입니다. 
+  Ads · Growth · Data를 다루는 마케터 입니다. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 오 정 윤
+  name: jeongyun.oh
   email: ojy6852@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
