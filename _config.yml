@@ -6,42 +6,33 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: marketer.git # the main title
 
-tagline:  # it will display as the subtitle
+tagline: 내가 할 수 있는 것에 집중하자. 일단 해보자.
 
 description: >- # used by seo meta and the atom feed
-  Ads · Growth · Data를 다루는 마케터 입니다. 
+  광고 전략 수립 및 운영을 넘어 데이터로 퍼널을 분석하고 그로스를 만드는 마케터 입니다. 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://JeongYun-OH.github.io"
 
 github:
-  username: JeongYun-OH # change to your GitHub username
-
-# twitter:
-  # username: twitter_username # change to your Twitter username
+  username: JeongYun-OH
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: jeongyun.oh
-  email: ojy6852@gmail.com # change to your email address
+  name: 오정윤
+  email: ojy9344@gmail.com 
   links:
-    # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/JeongYun-OH # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://github.com/JeongYun-OH 
     - https://www.linkedin.com/in/jeongyun-oh-marketer/
 
 # Site Verification Settings
@@ -138,7 +129,7 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # The option for PWA feature (installable)
   cache:
     enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
