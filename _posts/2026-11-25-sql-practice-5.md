@@ -220,4 +220,7 @@ FROM ANIMAL_INS
 ```
 
 ### 📝 오답노트
-- 시간 DATETIME은 HH:MM:SS 스타일까지 함께 가지고 있다. 이걸 날짜로만 변환하려면 DATE_FORMAT( 컬럼, '%Y-%m-%d') 형식으로 활용
+- DATETIME은 날짜와 시간(YYYY-MM-DD HH:MM:SS)을 함께 가진다
+- 날짜만 '출력'하려면 DATE_FORMAT(컬럼, '%Y-%m-%d') → 결과는 문자열
+- 날짜만 남겨 '비교·계산·그룹핑'하려면 DATE(컬럼) → 결과는 DATE 타입
+- 참고(BigQuery): 출력 형식은 FORMAT_DATE('%Y-%m-%d', 날짜), 날짜만 남기기는 DATE(컬럼)
