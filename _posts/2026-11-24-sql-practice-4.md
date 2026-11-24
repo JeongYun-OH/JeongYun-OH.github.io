@@ -1,5 +1,5 @@
 ---
-title: "SQL 문제풀이 #4 - 주제"
+title: "SQL 문제풀이 #4 - SELECT"
 date: 2026-11-24
 categories: [SQL 문제풀이]
 tags: [SQL, 프로그래머스]
